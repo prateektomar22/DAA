@@ -1,5 +1,4 @@
-#include <iostream> 
-using namespace std; 
+#include <iostream>  
 void heapify(int arr[], int n, int i)                    //function to create max heap 
 { 
 	int largest = i;                            //initializing n/2 element as i anf consedering ot to be largest        
@@ -37,7 +36,7 @@ void printArray(int arr[], int n)                                //to print outp
 } 
 int main()                                                       //mian function
 { 
-	int arr[] = {12, 11, 13, 5, 6, 7}; 
+	int arr[] = {4, 1, 45, 5, 9, 72}; 
 	int n = sizeof(arr)/sizeof(arr[0]);                                   //to count number of elements
 
 	heapSort(arr, n); 
